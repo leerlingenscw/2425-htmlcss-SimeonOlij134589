@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=21890838)
 # HTML oefenopgaven uit Fundament 
 Template voor het maken van oefenopgaven over HTML & Webdesign uit \
 [Fundament Kernprogramma A: Vaardigheden 2. HTML & CSS hoofdstuk 1 tot en met 4](https://fundament-online.nl/leeromgeving/hoofdstuk.php?id=12181)
