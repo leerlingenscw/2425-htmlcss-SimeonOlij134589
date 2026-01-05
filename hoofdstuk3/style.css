@@ -1,0 +1,68 @@
+/* simeon Olij */
+
+body {
+    background-color: #fffaf0;
+}
+
+p {
+    color: #4f7302
+}
+
+body {
+   font-family: Arial, sans-serif;
+}
+
+h1 {
+   font-size: 2.5em;
+   text-align: center;
+   color: #a6430a
+}
+
+h2 {
+   font-size: 1.8em;
+   border-bottom: 2px solid #a6430a;
+   color: #a6430a
+   
+}
+
+p, ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #f28907;
+   
+}
+ 
+a:hover {
+   color: #a60303;
+   text-decoration: none;
+}
+
+ul {
+    color: #4f7302;
+    list-style-type: square;
+}
+
+ol {
+    color: #4f7302;
+    list-style-type: upper-alpha;
+}
+
+table {
+   border: 1px solid #dddddd;
+   border-collapse: collapse;
+   width: 40%;
+   background-color: #fffaf0;
+}
+ 
+td {
+   border: 1px solid black;
+   border-color: #dddddd;
+}
+
+body {
+    width: 800px;
+    margin: auto;
+}
+
