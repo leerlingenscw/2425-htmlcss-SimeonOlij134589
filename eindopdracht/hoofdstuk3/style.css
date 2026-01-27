@@ -65,3 +65,31 @@ body {
     margin: auto;
 }
 
+nav {
+    background-color: #3780df;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+nav .items {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav .items li {
+    background-color: #4899f8;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
