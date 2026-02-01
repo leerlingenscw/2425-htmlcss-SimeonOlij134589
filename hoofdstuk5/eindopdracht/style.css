@@ -1,0 +1,231 @@
+/* simeon Olij */
+
+body {
+    background-color: #fffaf0;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+p {
+    color: #4f7302
+}
+
+
+h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+    color: #a6430a
+}
+
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 1.8em;
+    border-bottom: 2px solid #a6430a;
+    color: #a6430a
+}
+
+p, ul {
+    line-height: 1.8;
+}
+
+a {
+    color: #f28907;
+   
+}
+
+h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+   color: #a60303;
+   text-decoration: none;
+}
+
+ul {
+    color: #4f7302;
+    list-style-type: square;
+}
+
+ol {
+    color: #4f7302;
+}
+
+table {
+   border: 1px solid #dddddd;
+   border-collapse: collapse;
+   background-color: #fffaf0;
+}
+ 
+td {
+   border: 1px solid black;
+   border-color: #dddddd;
+}
+
+
+nav {
+    background-color: #fffaf0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    width: 1140px;
+    margin: 0px auto 0px auto;
+}
+
+.logo a {
+    font-family: 'Playfair Display';
+    font-size: 3em;
+    text-decoration: none;
+    color: #A60303;
+}
+
+/*.logo:hover a {
+    #
+}
+*/
+nav .items {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid currentColor;
+}
+
+nav .items li {
+    background-color: #fffaf0;
+    width: 90px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.1em;
+    margin-left: 25px;
+}
+
+nav li a {
+    font-size: 1.1em;
+    color: #4f7302;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+nav li a.active {
+    border-bottom-color: #f28907;
+}
+
+.container_recepten {
+   width: 1140px;
+   margin: 0px auto 0px auto;
+   background-color: #fffaf0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   gap: 21px
+   
+}
+ 
+.container_recepten img {
+   width: 300px;
+}
+
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url("images/pizza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 1140px;
+    margin: 0px auto 0px auto;
+}
+
+.recept {
+    width: 366px;
+    color: #4f7302;
+    text-decoration: none;
+}
+
+.recept img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto 20px auto;
+    border-radius: 5px;
+    display: block;
+}
+
+.recept:hover {
+    filter: brightness(75%);
+}
+
+footer p {
+    color:  #fffaf0;
+    background-color: #4f7302;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fffaf0;
+}
+
+footer a:hover {
+    color: #A60303;
+    text-decoration: underline;
+}
+/*.grid {
+    width: 1140px;
+    margin: 0px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 30px;
+}*/
+.container_detail {
+    width: 1140px;
+    margin: 0px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 30px;
+}
+
+.container_detail .introductie {
+    grid-column: 1 / 3;
+}
+
+.container_detail .ingredienten {
+    grid-row: 2 / 4;
+}
+
+.container_detail .voorbereiding table {
+    width: 50%;
+}
+
+.containter_contact {
+    width: 1140px;
+    margin: 0px auto 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+}
+
+.contact_info {
+    grid-column: 1 / 3;
+}
+
+.contact_intro p {
+    text-align: center;
+}
+
+.contact_info {
+    background-color:#fffaf0;
+    border-radius: 10px;
+    padding: 20px;
+}
